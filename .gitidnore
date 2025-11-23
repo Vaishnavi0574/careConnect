@@ -1,0 +1,14 @@
+# Node modules
+my-app/node_modules/
+backend/node_modules/
+
+# Build folders
+my-app/.next/
+my-app/build/
+backend/dist/
+
+# Environment files
+*.env
+
+# VS Code settings
+.vscode/

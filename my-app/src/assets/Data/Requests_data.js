@@ -1,0 +1,68 @@
+const request_data = [
+  {
+    category: "GROCERY PICKUP",
+    description: "Need help collecting weekly groceries from the local market.",
+    price: "₹150",
+    username: "Anita Sharma",
+    createdAt: "2 hours ago",
+    negotiable: "Yes",
+  },
+  {
+    category: "MEDICINE DELIVERY",
+    description: "Request to pick up prescribed medicines from nearby pharmacy.",
+    price: "₹100",
+    username: "Rohit Mehta",
+    createdAt: "4 hours ago",
+    negotiable: "No",
+  },
+  {
+    category: "ELDER ASSISTANCE",
+    description: "Looking for a volunteer to accompany an elderly person to the clinic.",
+    price: "₹200",
+    username: "Meera Joshi",
+    createdAt: "1 day ago",
+    negotiable: "Yes",
+  },
+  {
+    category: "PET CARE",
+    description: "Need evening pet walking and feeding help for two days.",
+    price: "₹250",
+    username: "Karan Verma",
+    createdAt: "3 hours ago",
+    negotiable: "Yes",
+  },
+  {
+    category: "TUTORING HELP",
+    description: "Seeking a tutor for basic math and English for a 6th grader.",
+    price: "₹300",
+    username: "Sneha Kapoor",
+    createdAt: "6 hours ago",
+    negotiable: "No",
+  },
+  {
+    category: "HOUSEHOLD CHORES",
+    description: "Need assistance with cleaning and organizing the living space.",
+    price: "₹200",
+    username: "Amit Desai",
+    createdAt: "8 hours ago",
+    negotiable: "Yes",
+  },
+  {
+    category: "EVENT SUPPORT",
+    description: "Require extra hands for managing a small birthday gathering.",
+    price: "₹400",
+    username: "Priya Nair",
+    createdAt: "2 days ago",
+    negotiable: "No",
+  },
+  {
+    category: "TECH ASSISTANCE",
+    description: "Need help setting up a new laptop and basic software installation.",
+    price: "₹250",
+    username: "Vikram Singh",
+    createdAt: "5 hours ago",
+    negotiable: "Yes",
+  },
+];
+
+export default request_data;
