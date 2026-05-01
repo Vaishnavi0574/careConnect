@@ -5,7 +5,7 @@ import bcrypt from "bcryptjs";
 const userSchema = new mongoose.Schema(
   {
     name: {
-      unique:[true, "Name must be unique"],
+      // unique:[False, "Name must not be unique"],
       type: String,
       required: [true, "Name is required"],
       trim: true,
