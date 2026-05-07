@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import http from "http"; // <- needed for socket.io
 import { Server } from "socket.io"; // <- socket.io server
 import authRoutes from "./routes/auth.js";
-import requestRoutes from "./routes/requestroute.js";
+import requestRoutes from "./routes/requestRoute.js";
 
 dotenv.config();
 const app = express();
