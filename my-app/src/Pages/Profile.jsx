@@ -7,8 +7,9 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // Connect to backend socket
-const socket = io("http://localhost:3000"); // match your backend URL
-
+const socket = io(import.meta.env.VITE_API_URL, {
+  withCredentials: true,
+});
 const Profile = () => {
   const [pendingRequests, setPendingRequests] = useState([]);
   const [completedRequests, setCompletedRequests] = useState([]);
